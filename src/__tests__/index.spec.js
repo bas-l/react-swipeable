@@ -139,7 +139,7 @@ function setupGetMountedComponent(type, mockListeners = mockListenersSetup) {
       })
 
       const touchHere = wrapper.find('span')
-      touchHere.simulate('mouseDown', cme({ x: 100, y: 100, timeStamp: 1374809.499999974 }))
+      touchHere.simulate('mouseDown', cme({ x: 100, y: 100, timeStamp: 1374809.499999974, ...e }))
 
       eventListenerMapDocument.mousemove(
         cme({ x: 125, y: 100, timeStamp: 1374825.199999963, ...e })
@@ -155,7 +155,7 @@ function setupGetMountedComponent(type, mockListeners = mockListenersSetup) {
       )
       eventListenerMapDocument.mouseup({})
 
-      expect(preventDefault).not.toHaveBeenCalled()
+      expect(preventDefault).toHaveBeenCalled()
       expect(swipeFuncs.onSwipedRight).toHaveBeenCalled()
       expect(swipeFuncs.onSwipedUp).not.toHaveBeenCalled()
       expect(swipeFuncs.onSwipedDown).not.toHaveBeenCalled()

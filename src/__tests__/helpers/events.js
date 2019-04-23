@@ -13,7 +13,6 @@ export function createTouchEventObject({ x, y, ...rest }) {
 export function createMouseEventObject({ x, y, ...rest }) {
   return {
     ...createClientXYObject(x, y),
-    preventDefault,
     ...rest
   }
 }

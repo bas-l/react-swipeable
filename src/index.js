@@ -58,6 +58,11 @@ function getHandlers(set, props) {
       }
       const { clientX, clientY } = event.touches ? event.touches[0] : event
       const xy = rotateXYByAngle([clientX, clientY], state.props.rotationAngle)
+
+      if (state.props.preventDefaultTouchmoveEvent && state.props.trackMouse) {
+        event.preventDefault()
+      }
+
       return { ...state, ...initialState, xy, start: event.timeStamp || 0 }
     })
   }

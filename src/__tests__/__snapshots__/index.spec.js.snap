@@ -28,7 +28,17 @@ Array [
       "event": Object {
         "clientX": 125,
         "clientY": 100,
-        "preventDefault": [MockFunction],
+        "preventDefault": [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+          ],
+        },
         "timeStamp": 1374825.199999963,
       },
       "velocity": 1.592356689012699,
@@ -44,7 +54,17 @@ Array [
       "event": Object {
         "clientX": 150,
         "clientY": 100,
-        "preventDefault": [MockFunction],
+        "preventDefault": [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+          ],
+        },
         "timeStamp": 1374841.3999999757,
       },
       "velocity": 1.5673981190353126,
@@ -60,7 +80,17 @@ Array [
       "event": Object {
         "clientX": 175,
         "clientY": 100,
-        "preventDefault": [MockFunction],
+        "preventDefault": [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+          ],
+        },
         "timeStamp": 1374857.399999979,
       },
       "velocity": 1.565762004010972,
@@ -76,7 +106,17 @@ Array [
       "event": Object {
         "clientX": 200,
         "clientY": 100,
-        "preventDefault": [MockFunction],
+        "preventDefault": [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+          ],
+        },
         "timeStamp": 1374873.499999987,
       },
       "velocity": 1.5624999996816769,
@@ -222,7 +262,17 @@ Array [
       "event": Object {
         "clientX": 125,
         "clientY": 100,
-        "preventDefault": [MockFunction],
+        "preventDefault": [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+          ],
+        },
         "timeStamp": 1374825.199999963,
       },
       "velocity": 1.592356689012699,
@@ -238,7 +288,17 @@ Array [
       "event": Object {
         "clientX": 150,
         "clientY": 100,
-        "preventDefault": [MockFunction],
+        "preventDefault": [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+          ],
+        },
         "timeStamp": 1374841.3999999757,
       },
       "velocity": 1.5673981190353126,
@@ -254,7 +314,17 @@ Array [
       "event": Object {
         "clientX": 175,
         "clientY": 100,
-        "preventDefault": [MockFunction],
+        "preventDefault": [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+          ],
+        },
         "timeStamp": 1374857.399999979,
       },
       "velocity": 1.565762004010972,
@@ -270,7 +340,17 @@ Array [
       "event": Object {
         "clientX": 200,
         "clientY": 100,
-        "preventDefault": [MockFunction],
+        "preventDefault": [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+          ],
+        },
         "timeStamp": 1374873.499999987,
       },
       "velocity": 1.5624999996816769,
